@@ -27,4 +27,4 @@ $table = (new Table($query, $_GET))
 
 call render() function to show table on your page like the following:
 
-<?= $table->render() ?>
+<?php echo $table->render() ?>
